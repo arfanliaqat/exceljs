@@ -48,7 +48,7 @@ I have just one request; If you submit a pull request for a bugfix, please add a
 Note: Please try to avoid modifying the package version in a PR.
 Versions are updated on release and any change will most likely result in merge collisions.
 
-To be clear, all contributions added to this library will be included in the library's MIT licence.
+To be clear, all contributions added to this library will be included in the library's MIT license.
 
 # Contents
 
@@ -2044,7 +2044,7 @@ The constructor takes an optional options object with the following fields:
 | filename         | If stream not specified, this field specifies the path to a file to write the XLSX workbook to. |
 | useSharedStrings | Specifies whether to use shared strings in the workbook. Default is false |
 | useStyles        | Specifies whether to add style information to the workbook. Styles can add some performance overhead. Default is false |
-| zip              | [Zip optons](https://www.archiverjs.com/global.html#ZipOptions) that ExcelJS internally passes to [Archiver](https://github.com/archiverjs/node-archiver). Default is undefined |
+| zip              | [Zip options](https://www.archiverjs.com/global.html#ZipOptions) that ExcelJS internally passes to [Archiver](https://github.com/archiverjs/node-archiver). Default is undefined |
 
 If neither stream nor filename is specified in the options, the workbook writer will create a StreamBuf object
  that will store the contents of the XLSX workbook in memory.
